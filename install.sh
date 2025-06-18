@@ -611,7 +611,7 @@ case "$erpnext_install" in
     "yes"|"y")
     sleep 2
     bench get-app https://github.com/naturae-syria/ERPNEXT-MGC.git --branch "$bench_version" && \
-    bench --site "$site_name" install-app ERPNEXT-MGC
+    bench --site "$site_name" install-app erpnext
     sleep 1
     ;;
 esac
